@@ -163,3 +163,4 @@ dados_municipios %>%
   mutate(nome_regiao_saude_uf = paste(nome, nome_regiao_saude, sigla_uf, sep = "-")) %>%
   
   select(nome_regiao_saude_uf, populacao)
+
