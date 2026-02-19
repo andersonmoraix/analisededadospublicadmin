@@ -1,7 +1,7 @@
 #Exercício
 #Faça o box-plot de população considerando a distribuição por região do Brasil.
 
-
+install.packages("tidyverse")
 library(tidyverse)
 
 arquivo <- "https://raw.githubusercontent.com/fernandobarbalho/enap_auto_instucional/main/data/dados_municipios.csv"
